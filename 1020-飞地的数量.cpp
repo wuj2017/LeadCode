@@ -10,17 +10,13 @@ public:
 		int result = 0;
 		for (int i = 0; i < row;i++)
 		{
-			if (A[i][0] == 1) 
-				DFS(i, 0, A);
-			if (A[i][col - 1] == 1) 
-				DFS(i, col - 1, A);
+			if (A[i][0] == 1)	DFS(i, 0, A);
+			if (A[i][col - 1] == 1)	DFS(i, col - 1, A);
 		}
 		for (int j = 0; j < col; j++)
 		{
-			if (A[0][j] == 1) 
-				DFS(0, j, A);
-			if (A[row-1][j] == 1) 
-				DFS(row-1, j, A);
+			if (A[0][j] == 1) DFS(0, j, A);
+			if (A[row-1][j] == 1) DFS(row-1, j, A);
 		}
 		for (int i = 0; i < row;i++)
 		{

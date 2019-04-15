@@ -26,8 +26,7 @@ public:
 		{
 			for (int j = 0; j < col;j++)
 			{
-				if (A[i][j] == 1) 
-					result++;
+				if (A[i][j] == 1) result++;
 			}
 		}
 		return result;

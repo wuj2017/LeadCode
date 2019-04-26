@@ -19,7 +19,7 @@ public:
         int num=0;
 		for (int i = 0; i < A.size(); i++)
 		{
-			num = ((num << 1) + A[i]) % 5;
+			num = ((num << 1) + A[i]) % 5;//关键取余操作
 			res.push_back(0 == num);
 		}
 		return res;

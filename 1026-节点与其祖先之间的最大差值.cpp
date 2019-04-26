@@ -9,7 +9,7 @@
  */
 class Solution {
 public:
-    int maxAncestorDiff(TreeNode* root) {
+  int maxAncestorDiff(TreeNode* root) {
 		int res = 0;
 		Diff(root, res);
 		return res;

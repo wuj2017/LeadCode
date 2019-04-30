@@ -1,5 +1,6 @@
 class Solution {
 public:
+//必须是静态函数
     static bool cmp( vector<int> a, vector<int> b){
         return a[0] - a[1] > b[0] - b[1];
     }
